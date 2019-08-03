@@ -1,10 +1,15 @@
 <template>
   <div id="take-loan">
+    <div class>
+      <div class="profile">
+        <img style="width: 80px;" src="https://app.incento.io/_nuxt/img/13533ce.svg" />
+      </div>
+    </div>
     <div id="geetings">
       <div class="greeting-div">
         <div class="columns is-mobile">
           <div class="column has-text-weight-bold">
-            <span class="username">Repayment</span>
+            <span class="username">Machu's Profile</span>
           </div>
         </div>
       </div>
@@ -14,25 +19,12 @@
       <div class="balance-card card-one has-text-centered balance-card">
         <div class="columns-new">
           <div class="column">
-            <span class="large">50.0</span>
+            <span class="large">4.9 / 5</span>
           </div>
         </div>
         <div class="columns-new">
           <div class="column">
-            <span class="balance-coin">Tenure:</span>
-            <span class="balance-amount-new">6 months</span>
-          </div>
-        </div>
-        <div class="columns-new">
-          <div class="column">
-            <span class="balance-coin">EMIs:</span>
-            <span class="balance-amount-new">6</span>
-          </div>
-        </div>
-        <div class="columns-new">
-          <div class="column">
-            <span class="balance-coin">Total Interest @24%:</span>
-            <span class="balance-amount-new">122</span>
+            <span class="balance-coin">Average Score</span>
           </div>
         </div>
       </div>
@@ -181,9 +173,10 @@
 
 <script>
 export default {
-  name: "repayment"
+  name: "profile"
 };
 </script>
+
 <style scoped>
 .large {
   font-size: 50px;
@@ -199,12 +192,6 @@ export default {
   justify-content: flex-start;
 }
 
-.fa-check {
-  color: green;
-}
-</style>
-
-<style scoped>
 *,
 *:before,
 *:after,
@@ -634,4 +621,3 @@ body > * {
   }
 }
 </style>
-
