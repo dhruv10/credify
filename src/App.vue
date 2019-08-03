@@ -6,8 +6,8 @@
       <div class="logo">
         <img
           data-v-64fe992e
-          src="https://app.incento.io/_nuxt/img/5d8e998.svg"
-          style="width: 40px; margin-top: 3px; margin-left: -10px;"
+          src="@/assets/credify_logo.svg"
+          style="width: 50px; margin-top: 3px; margin-left: -10px;"
         />
       </div>
       <div class="user-display">
@@ -40,7 +40,7 @@
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
 }
