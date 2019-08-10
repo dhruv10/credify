@@ -1,22 +1,21 @@
 {
-  "name": "credify",
-  "version": "0.1.0",
-  "private": true,
+  "name": "ethindia-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "test:ethereum": "ganache-cli -m 'layer post chase message demise fresh resource beyond bulb rose garden kite'",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network matic",
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "truffle": "^5.0.29"
   },
   "dependencies": {
-    "core-js": "^2.6.5",
-    "register-service-worker": "^1.6.2",
-    "vue": "^2.6.10",
-    "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.9.0",
-    "@vue/cli-plugin-pwa": "^3.9.0",
-    "@vue/cli-service": "^3.9.0",
-    "vue-template-compiler": "^2.6.10"
+    "ganache-cli": "^6.5.1",
+    "truffle-hdwallet-provider": "^1.0.15"
   }
 }
