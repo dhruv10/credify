@@ -1,3 +1,3 @@
 ## CREDIFY
 
-#### Decentralized app for microfinance.
+#### Decentralized app for microfinance
